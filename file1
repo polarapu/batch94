@@ -1,0 +1,70 @@
+git init  - to intilize git repo
+
+git config --global user.name "Polarapu Prasad"
+git config --global user.email "devopstraining2015@gmail.com"
+
+git config --list
+
+Remove user & email from congig
+--------------------------------
+
+git config --global --unset user.name
+git config --global --unset user.eamil
+
+===========================================
+git clone https://github.com/LAUBEID13/repo1.git
+ls
+cd repo1
+touch file1
+ls
+git status
+git add file1
+git status
+git commit -m "label" file1
+git status
+git log
+git show
+git show cid
+
+================================
+touch file2 file3 file4 file5
+ls
+git status
+git add *
+or
+git add .
+or
+git add -A
+or
+git add file2 file3 file4 file5
+
+git commit -m "label"
+git log
+git push
+
+================================
+rm file1  (to delete a file)
+ls
+git status
+git add file1
+git status
+git commit -m "deleted file"
+git status
+git log
+git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
